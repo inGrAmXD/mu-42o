@@ -24,7 +24,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
             <ScrollToHashElement behavior="smooth" block="center" />
             <header className="m-auto max-w-[1328px]">
               <img
-                className="hidden object-cover"
+                className="object-cover"
                 src={headerBg}
               />
             </header>
