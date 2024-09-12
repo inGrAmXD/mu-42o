@@ -37,7 +37,7 @@ const AboutPage: React.FC<AboutPageProps> = () => {
                   />
                   <List.Item
                     label={t('serverSettings.experience')}
-                    value="1000x"
+                    value="250x"
                   />
                   <List.Item
                     label={t('serverSettings.masterExperience')}

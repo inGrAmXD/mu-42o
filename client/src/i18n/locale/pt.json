@@ -1,402 +1,271 @@
 {
   "navigation": {
-    "home": "Início",
+    "home": "Inicio",
     "registration": "Registro",
-    "downloads": "Downloads",
-    "news": "Notícias",
-    "rankings": "Rankings",
-    "about": "Sobre"
+    "downloads": "Descargas",
+    "news": "Noticias",
+    "rankings": "Clasificaciones",
+    "about": "Acerca de"
   },
   "sidebar": {
     "loginCard": {
-      "title": "Login",
+      "title": "Iniciar sesión",
       "form": {
-        "loginName": "Usuário",
-        "password": "Senha",
-        "lostMyPassword": "Perdi minha senha",
-        "submitButton": "Entrar",
+        "loginName": "Nombre de usuario",
+        "password": "Contraseña",
+        "lostMyPassword": "Olvidé mi contraseña",
+        "submitButton": "Iniciar sesión",
         "errorMessages": {
-          "required": "Obrigatório.",
-          "minimumLength": "O tamanho mínimo é {{minLength}} caracteres.",
-          "maximumLength": "O tamanho máximo é {{maxLength}} caracteres.",
-          "loginOrPasswordIncorrectly": "Login ou senha errada."
+          "required": "Requerido.",
+          "minimumLength": "La longitud mínima es {{minLength}} caracteres.",
+          "maximumLength": "La longitud máxima es {{maxLength}} caracteres.",
+          "loginOrPasswordIncorrectly": "Nombre de usuario o contraseña incorrectos."
         }
       }
     },
     "accountCard": {
-      "title": "Conta",
+      "title": "Cuenta",
       "menuOptions": {
-        "myAccount": "Minha conta",
-        "addNews": "Adicionar notícia",
+        "myAccount": "Mi cuenta",
+        "addNews": "Agregar noticias",
         "banners": "Banners",
-        "logout": "Sair"
+        "logout": "Cerrar sesión"
       }
     },
     "serverCard": {
       "title": "Servidor",
-      "version": "Versão",
+      "version": "Versión",
       "experience": "Exp.",
-      "masterExperience": "Master Exp.",
+      "masterExperience": "Exp. Maestro",
       "drops": "Drop",
-      "accounts": "Contas",
+      "accounts": "Cuentas",
       "guilds": "Guilds",
-      "playersOn": "Onlines"
+      "playersOn": "Jugadores en línea"
     },
     "rankingsCard": {
-      "title": "Rankings",
-      "playersTab": "Players",
+      "title": "Clasificaciones",
+      "playersTab": "Jugadores",
       "guildsTab": "Guilds",
-      "button": "Veja mais",
+      "button": "Ver más",
       "playersTableColumns": {
-        "characterName": "Nick",
+        "characterName": "Nombre",
         "level": "LvL",
         "resets": "Resets",
-        "emptyMessage": "Sem players"
+        "emptyMessage": "No hay jugadores"
       },
       "guildsTableColumns": {
-        "name": "Nome",
-        "score": "Pontuação",
+        "name": "Nombre",
+        "score": "Puntuación",
         "logo": "Logo",
-        "emptyMessage": "Sem guilds"
+        "emptyMessage": "No hay guilds"
       }
     }
   },
   "footer": {
-    "copyright1": "MU Online © 2024. Todos os direitos reservados.",
-    "copyright2": "Mu é uma marca registrada da WEBZEN, Inc.",
-    "developedBy": "Desenvolvido por"
+    "copyright1": "MU Online © 2024. Todos los derechos reservados.",
+    "copyright2": "Mu es una marca registrada de WEBZEN, Inc.",
+    "developedBy": "Desarrollado por"
   },
   "home": {
-    "newsTitle": "Últimas Notícias",
-    "newsEmptyMessage": "Nenhuma notícia publicada",
-    "newsReadMoreButton": "Ler mais",
+    "newsTitle": "Últimas Noticias",
     "eventsTitle": "Eventos",
-    "soonTitleCard": "Em breve...",
+    "soonTitleCard": "Próximamente...",
+    "newsEmptyMessage": "No hay noticias publicadas",
+    "newsReadMoreButton": "Leer más",
     "eventCard": {
-      "soon": "Em breve...",
+      "soon": "Próximamente...",
       "countdown": {
-        "now": "Aberto"
+        "now": "Ahora"
       }
     }
   },
   "registration": {
     "title": "Registro",
-    "subtitle": "Crie sua conta para iniciar suas aventuras no Mu Online!",
+    "subtitle": "¡Crea tu cuenta para comenzar tus aventuras en Mu Online!",
     "registrationForm": {
-      "loginName": "Usuário",
-      "email": "Email",
-      "password": "Senha",
-      "confirmPassword": "Confirmar senha",
-      "agreeWithTerms": "Li e concordo com os termos e condições de uso.",
-      "submitButton": "Registrar",
+      "loginName": "Nombre de usuario",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "agreeWithTerms": "He leído y acepto los términos y condiciones.",
+      "submitButton": "Registrarse",
       "errorMessages": {
-        "accountAlreadyExists": "O usuário já existe.",
-        "emailAlreadyExists": "O email já existe.",
-        "invalidEmail": "Email inválido.",
-        "required": "Obrigatório.",
-        "minimumLength": "O tamanho mínimo é {{minLength}} caracteres.",
-        "maximumLength": "O tamanho máximo é {{maxLength}} caracteres.",
-        "passwordShouldMatch": "A senha e a confirmação de senha devem ser iguais."
+        "accountAlreadyExists": "El nombre de usuario ya existe.",
+        "emailAlreadyExists": "El correo electrónico ya existe.",
+        "invalidEmail": "Correo electrónico inválido.",
+        "required": "Requerido.",
+        "minimumLength": "La longitud mínima es {{minLength}} caracteres.",
+        "maximumLength": "La longitud máxima es {{maxLength}} caracteres.",
+        "passwordShouldMatch": "La contraseña y la confirmación de la contraseña deben ser iguales."
       },
       "successMessages": {
-        "accountCreated": "Conta registrada."
+        "accountCreated": "Cuenta creada."
       }
     }
   },
   "downloads": {
-    "title": "Downloads",
+    "title": "Descargas",
     "subtitle": {
-      "clientDownload": "Download do cliente",
-      "additionalDownloads": "Downloads adicionais",
-      "installationGuide": "Guia de instalação",
-      "systemRequirements": "Requisitos de sistema",
-      "drivers": "Drivers de vídeo"
+      "clientDownload": "Descarga del cliente",
+      "additionalDownloads": "Descargas adicionales",
+      "installationGuide": "Guía de instalación",
+      "systemRequirements": "Requisitos del sistema",
+      "drivers": "Controladores gráficos"
     },
-    "clientSize": "Tamanho: aproximadamente 500 MB.",
+    "clientSize": "Tamaño: aproximadamente 500 MB.",
     "fileFormat": "Formato: zip.",
     "systemRequirementsTable": {
-      "settings": "Configuração",
+      "settings": "Configuraciones",
       "minimum": "Mínimo",
       "recommended": "Recomendado",
-      "processor": "Processador",
+      "processor": "Procesador",
       "memory": "RAM",
       "operatingSystem": "Sistema",
-      "graphicsCard": "Placa de vídeo",
-      "storage": "Espaço",
+      "graphicsCard": "Tarjeta gráfica",
+      "storage": "Almacenamiento",
       "internet": "Internet"
     }
   },
   "news": {
-    "title": "Notícias",
-    "newsEmptyMessage": "Nenhuma notícia publicada",
+    "title": "Noticias",
+    "newsEmptyMessage": "No hay noticias publicadas",
     "newsItem": {
-      "creationDate": "Criada em",
-      "lastUpdatedDate": "Última edição",
-      "postedBy": "Postado por"
+      "creationDate": "Creado el",
+      "lastUpdatedDate": "Actualizado el",
+      "postedBy": "Publicado por"
     },
     "newsDeleteModal": {
-      "title": "Excluir notícia",
-      "message": "Tem certeza que deseja excluir a notícia",
-      "excludeButton": "Excluir",
+      "title": "Eliminar noticia",
+      "message": "¿Estás seguro de que deseas eliminar la noticia?",
+      "excludeButton": "Eliminar",
       "cancelButton": "Cancelar",
-      "successMessage": "Notícia deletada."
+      "successMessage": "Noticia eliminada."
     }
   },
   "rankings": {
-    "title": "Rankings",
-    "playersTab": "Players",
+    "title": "Clasificaciones",
+    "playersTab": "Jugadores",
     "guildsTab": "Guilds",
     "playersTable": {
-      "filterClass": "Classe",
-      "all": "Todas",
-      "name": "Nome",
-      "class": "Classe",
-      "level": "Level",
+      "filterClass": "Clase",
+      "all": "Todos",
+      "name": "Nombre",
+      "class": "Clase",
+      "level": "Nivel",
       "resets": "Resets",
-      "online": "Online",
-      "emptyMessage": "Sem players"
+      "online": "En línea",
+      "emptyMessage": "No hay jugadores"
     },
     "guildsTableColumns": {
-      "name": "Nome",
+      "name": "Nombre",
       "logo": "Logo",
-      "score": "Pontuação",
-      "guildMaster": "Mestre da Guild",
-      "members": "Membros",
-      "emptyMessage": "Sem guilds"
+      "score": "Puntuación",
+      "guildMaster": "Maestro de Guild",
+      "members": "Miembros",
+      "emptyMessage": "No hay guilds"
     }
   },
   "about": {
-    "title": "Sobre o Servidor",
+    "title": "Acerca del Servidor",
     "serverSettings": {
-      "title": "Configuração do Servidor",
-      "version": "Versão",
+      "title": "Configuraciones del Servidor",
+      "version": "Versión",
       "experience": "Exp.",
-      "masterExperience": "Master Exp.",
+      "masterExperience": "Exp. Maestro",
       "drops": "Drop",
-      "pointsPerLevel": "Pontos por Level",
-      "maxPoints": "Max. Pontos"
+      "pointsPerLevel": "Puntos por Nivel",
+      "maxPoints": "Puntos Máx."
     },
     "resetSystem": {
-      "title": "Sistema de Reset",
-      "resetTypeLabel": "Tipo de Reset",
-      "resetTypeValue": "Pontuativo",
+      "title": "Sistema de Reseteo",
+      "resetTypeLabel": "Tipo de Reseteo",
+      "resetTypeValue": "Reseteo Basado en Puntos",
       "command": "Comando",
-      "pointsPerReset": "Pontos por Reset",
-      "level": "Level",
-      "postResetLevel": "Level após Reset"
+      "pointsPerReset": "Puntos por Reseteo",
+      "level": "Nivel",
+      "postResetLevel": "Nivel después del Reseteo"
     },
     "commands": {
       "title": "Comandos",
       "str": {
-        "label": "/add str <pontos>",
-        "value": "adicionar pontos em força"
+        "label": "/add str <puntos>",
+        "value": "agregar puntos en fuerza"
       },
       "agi": {
-        "label": "/add agi <pontos>",
-        "value": "adicionar pontos em agilidade"
+        "label": "/add agi <puntos>",
+        "value": "agregar puntos en agilidad"
       },
       "vit": {
-        "label": "/add vit <pontos>",
-        "value": "adicionar pontos em vitalidade"
+        "label": "/add vit <puntos>",
+        "value": "agregar puntos en vitalidad"
       },
       "ene": {
-        "label": "/add ene <pontos>",
-        "value": "adicionar pontos em energia"
+        "label": "/add ene <puntos>",
+        "value": "agregar puntos en energía"
       },
       "cmd": {
-        "label": "/add cmd <pontos>",
-        "value": "adicionar pontos em comando"
+        "label": "/add cmd <puntos>",
+        "value": "agregar puntos en comando"
       },
       "moveMap": {
         "label": "/move <mapa>",
-        "value": "mover para mapa"
+        "value": "mover a mapa"
       }
     },
     "serverStatistics": {
-      "title": "Estatísticas",
-      "characters": "Personagens",
-      "accounts": "Contas",
+      "title": "Estadísticas",
+      "characters": "Personajes",
+      "accounts": "Cuentas",
       "guilds": "Guilds",
-      "playersOn": "Onlines"
+      "playersOn": "Jugadores en línea"
     }
   },
   "onlines": {
-    "title": "Onlines",
-    "playersOn": "Jogadores Online",
-    "staff": "Equipe",
-    "emptyMessage": "Sem players online",
+    "title": "Jugadores en Línea",
+    "playersOn": "Jugadores en Línea",
+    "staff": "Personal",
+    "emptyMessage": "No hay jugadores en línea",
     "table": {
-      "name": "Nome",
-      "class": "Classe",
-      "level": "Level",
+      "name": "Nombre",
+      "class": "Clase",
+      "level": "Nivel",
       "resets": "Resets"
     }
   },
   "guild": {
     "title": "Guild",
-    "backButton": "Voltar",
-    "guildMaster": "Mestre da Guild",
-    "score": "Pontuação",
-    "members": "Membro(s)",
+    "backButton": "Volver",
+    "guildMaster": "Maestro de Guild",
+    "score": "Puntuación",
+    "members": "Miembro(s)",
     "table": {
-      "name": "Nome",
-      "class": "Classe",
+      "name": "Nombre",
+      "class": "Clase",
       "position": {
-        "title": "Posição",
-        "guildMaster": "Mestre da Guild",
-        "member": "Membro",
+        "title": "Posición",
+        "guildMaster": "Maestro de Guild",
+        "member": "Miembro",
         "undefine": "Indefinido",
-        "battleMaster": "Mestre de Batalha"
+        "battleMaster": "Maestro de Batalla"
       },
       "level": "LvL",
       "resets": "Resets",
-      "online": "Online"
+      "online": "En línea"
     }
   },
   "account": {
-    "title": "Minha Conta",
-    "welcome": "Seja bem-vindo",
-    "data": "Dados",
-    "loginName": "Usuário",
-    "email": "Email",
-    "changePasswordButton": "Alterar Senha",
-    "characters": "Personagens",
-    "charactersTable": {
-      "name": "Nome",
-      "class": "Classe",
-      "level": "Level",
-      "resets": "Resets",
-      "emptyMessage": "Sem personagens"
-    },
-    "changePasswordModal": {
-      "title": "Alterar senha",
-      "form": {
-        "currentPassword": "Senha atual",
-        "nextPassword": "Senha nova",
-        "confirmNextPassword": "Confirmar senha nova",
-        "successMessage": "Senha alterada.",
-        "button": "Alterar",
-        "errorMessages": {
-          "required": "Obrigatório.",
-          "currentPasswordWrong": "Senha atual errada.",
-          "minimumLength": "O tamanho mínimo é {{minLength}} caracteres.",
-          "maximumLength": "O tamanho máximo é {{maxLength}} caracteres.",
-          "passwordShouldMatch": "A senha e a confirmação devem ser iguais."
-        }
-      }
+    "title": "Mi Cuenta",
+    "welcome": "Bienvenido",
+    "data": "Datos Personales",
+    "loginName": "Nombre de usuario",
+    "email": "Correo electrónico",
+    "changePassword": "Cambiar contraseña",
+    "changeEmail": "Cambiar correo electrónico",
+    "personalData": {
+      "currentPassword": "Contraseña actual",
+      "newPassword": "Nueva contraseña",
+      "confirmNewPassword": "Confirmar nueva contraseña",
+      "updateButton": "Actualizar"
     }
-  },
-  "character": {
-    "title": "Minha Conta",
-    "backButton": "Voltar",
-    "experience": {
-      "title": "Experiência",
-      "level": "Level",
-      "resets": "Resets",
-      "reset": {
-        "button": "Resetar",
-        "successMessage": "Personagem resetado.",
-        "errorMessages": {
-          "notEnoughZen": "Você não tem zen suficiente. Zen necessário: {{requiredZen}}.",
-          "maximumResetsReached": "O limite de resets foi atingido: {{resetsLimit}}.",
-          "connectedAccount": "Desconecte-se do jogo antes de resetar."
-        }
-      }
-    },
-    "location": {
-      "title": "Localização",
-      "map": "Mapa",
-      "coordinates": "Coordenadas"
-    },
-    "attributes": {
-      "title": "Atributos",
-      "pointsToAdd": "Pontos à distribuir",
-      "str": "força",
-      "agi": "agilidade",
-      "vit": "vitalidade",
-      "ene": "energia",
-      "cmd": "comando",
-      "form": {
-        "errorMessages": {
-          "noPointsAdded": "Nenhum ponto à ser adicionado.",
-          "connectedAccount": "Desconecte-se do jogo antes de distribuir os pontos.",
-          "strAboveLimit": "Força acima do limite de {{limit}}.",
-          "agiAboveLimit": "Agilidade acima do limite de {{limit}}.",
-          "vitAboveLimit": "Vitalidade acima do limite de {{limit}}.",
-          "eneAboveLimit": "Energia acima do limite de {{limit}}.",
-          "cmdAboveLimit": "Comando acima do limite de {{limit}}.",
-          "pointsAboveLimit": "O máximo de pontos a distribuir é {{limit}}.",
-          "notEnoughPoints": "Pontos insuficientes, a quantidadade disponível é {{pointsAvailable}}."
-        },
-        "successMessage": "Pontos distribuídos.",
-        "addPointsButton": "Adicionar Pontos",
-        "saveButton": "Salvar",
-        "cancelButton": "Cancelar"
-      }
-    },
-    "guild": {
-      "title": "Guild",
-      "emptyMessage": "Nenhuma"
-    },
-    "class": "Classe"
-  },
-  "newsForm": {
-    "title": "Notícia",
-    "add": {
-      "title": "Adicionar notícia",
-      "successMessage": "Notícia criada.",
-      "saveButton": "Criar"
-    },
-    "edit": {
-      "title": "Editar notícia",
-      "successMessage": "Notícia editada.",
-      "saveButton": "Salvar"
-    },
-    "titleField": "Título",
-    "content": "Conteúdo",
-    "author": "Autor",
-    "showPreview": "Mostrar prévia",
-    "hidePreview": "Esconder prévia",
-    "cancelButton": "Cancelar",
-    "form": {
-      "errorMessages": {
-        "required": "Obrigatório.",
-        "minimumLength": "O tamanho mínimo é {{minLength}} caracteres.",
-        "maximumLength": "O tamanho máximo é {{maxLength}} caracteres."
-      }
-    }
-  },
-  "editBanners": {
-    "title": "Banners",
-    "emptyMessage": "Nenhum banner ainda",
-    "subtitle": "Banner",
-    "imageUrl": "URL da imagem",
-    "hasLink": "Link?",
-    "link": "Link",
-    "isExternalLink": "Link externo?",
-    "orderIndex": "Ordem",
-    "addBannerButton": "Banner",
-    "showPreview": "Mostrar prévia",
-    "hidePreview": "Esconder prévia",
-    "cancelButton": "Cancelar",
-    "saveButton": "Salvar",
-    "successMessage": "Banners alterados.",
-    "errorMessages": {
-      "required": "Obrigatório.",
-      "minimum": "O mínimo é {{min}}.",
-      "maximum": "O máximo é {{max}}."
-    }
-  },
-  "error": {
-    "title": "Erro",
-    "homeButton": "Início"
-  },
-  "error404": {
-    "title": "Página não encontrada",
-    "subtitle": "A página solicitada não pôde ser encontrada."
-  },
-  "error500": {
-    "title": "Problema no servidor",
-    "subtitle": "Tente novamente mais tarde."
   }
 }
