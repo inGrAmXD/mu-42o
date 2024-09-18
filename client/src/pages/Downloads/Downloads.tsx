@@ -9,10 +9,6 @@ import Table, { Column } from '@/components/Table/Table';
 
 import DriveLogo from '@/assets/images/logos/drive.svg';
 import MegaLogo from '@/assets/images/logos/mega.svg';
-import DirectXLogo from '../../assets/images/logos/directx.svg';
-import VisualCppLogo from '@/assets/images/logos/visual-cpp.svg';
-import DotNetLogo from '@/assets/images/logos/dotnet-framework.svg';
-import VbLogo from '@/assets/images/logos/vb.svg';
 import NvidiaLogo from '@/assets/images/logos/nvidia.svg';
 import AMDLogo from '@/assets/images/logos/amd-radeon.svg';
 import IntelGraphicsLogo from '@/assets/images/logos/intel-graphics.svg';
