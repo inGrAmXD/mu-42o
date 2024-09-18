@@ -90,64 +90,13 @@ const DownloadsPage: React.FC<DownloadsPageProp> = () => {
             {t('clientSize')} <br /> {t('fileFormat')}
           </Typography>
           <div className="flex flex-wrap gap-8">
-            <ImageButton link="https://drive.google.com/drive">
+            <ImageButton link="https://mega.nz/file/1cQXRDLZ#5EM6vFK6OzTvc-R79eEhtU1e9zF7-bUKMAbd7yAGE-c">
               <DriveLogo />
             </ImageButton>
-            <ImageButton link="https://mega.nz">
+            <ImageButton link="https://mega.nz/file/1cQXRDLZ#5EM6vFK6OzTvc-R79eEhtU1e9zF7-bUKMAbd7yAGE-c">
               <MegaLogo />
             </ImageButton>
           </div>
-        </div>
-        <div className="flex flex-col gap-4">
-          <Typography
-            variant="h3-inter"
-            styles="text-primary-950 dark:text-primary-50"
-          >
-            {t('subtitle.additionalDownloads')}
-          </Typography>
-          <div className="flex flex-wrap gap-8">
-            <ImageButton
-              link="https://www.microsoft.com/pt-br/download/details.aspx?id=35"
-              size="medium"
-            >
-              <DirectXLogo className="h-20 w-36" />
-            </ImageButton>
-            <ImageButton
-              link="https://learn.microsoft.com/pt-br/cpp/windows/latest-supported-vc-redist?view=msvc-170"
-              size="medium"
-            >
-              <VisualCppLogo className="w-24 rounded-full" />
-            </ImageButton>
-            <ImageButton
-              link="https://www.microsoft.com/pt-br/download/details.aspx?id=30653"
-              size="medium"
-            >
-              <DotNetLogo className="max-h-20 w-20" />
-            </ImageButton>
-            <ImageButton
-              link="https://www.microsoft.com/en-US/Download/confirmation.aspx?id=10019"
-              size="medium"
-            >
-              <VbLogo className="w-20" />
-            </ImageButton>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4">
-          <Typography
-            component="h2"
-            variant="h3-inter"
-            styles="text-primary-950 dark:text-primary-50"
-          >
-            {t('subtitle.installationGuide')}
-          </Typography>
-          <ol className="ml-[16px] text-primary-950 dark:text-primary-50">
-            {[1, 2, 3, 4, 5].map((_, i) => (
-              <Typography key={i} component="li" variant="body2-r" type="1">
-                Faucibus lectus suspendisse ornare amet venenatis cursus
-                habitant cursus aliquet.
-              </Typography>
-            ))}
-          </ol>
         </div>
         <div className="flex flex-col gap-4">
           <Typography
