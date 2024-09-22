@@ -86,10 +86,10 @@ const DownloadsPage: React.FC<DownloadsPageProp> = () => {
             {t('clientSize')} <br /> {t('fileFormat')}
           </Typography>
           <div className="flex flex-wrap gap-8">
-            <ImageButton link="https://mega.nz/file/pAJ1nK6a#-5_H2FJuOR_AS9LuVgDT9oD2cyiYB-cHdsh7wObggew">
+            <ImageButton link="https://mega.nz/file/dJghzabY#aOudO1t_8GwvZFw8qNZl9Wt1ofO1jVvCov-PDz9BReQ">
               <DriveLogo />
             </ImageButton>
-            <ImageButton link="https://mega.nz/file/pAJ1nK6a#-5_H2FJuOR_AS9LuVgDT9oD2cyiYB-cHdsh7wObggew">
+            <ImageButton link="https://mega.nz/file/dJghzabY#aOudO1t_8GwvZFw8qNZl9Wt1ofO1jVvCov-PDz9BReQ">
               <MegaLogo />
             </ImageButton>
           </div>
@@ -107,8 +107,8 @@ const DownloadsPage: React.FC<DownloadsPageProp> = () => {
               <tr
                 key={index}
                 className={`border-b ${requirementTableRows.length != index + 1
-                    ? 'border-neutral-300 dark:border-primary-400'
-                    : 'border-primary-950 dark:border-primary-50'
+                  ? 'border-neutral-300 dark:border-primary-400'
+                  : 'border-primary-950 dark:border-primary-50'
                   }`}
               >
                 {requerimentsTableColumns.map((column, colIndex) => (
